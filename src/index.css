@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Input-with-icon-adornment {
+    width: 674px;
+    height: 66px;
+    border: none;
+    background: url("./assets/image/header/input.png") no-repeat;
+    background-size: 100% 100%;
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 0 30px;
+}
+
+@font-face {
+    font-family: NotoSansHans-Medium;
+    font-style: normal;
+    font-weight: normal;
+    src: url("./assets/fronts/NotoSansHans-Medium.otf");
+}
+
+@font-face {
+    font-family: sf-pro-display_boldwoff;
+    font-style: normal;
+    font-weight: normal;
+    src: url("./assets/fronts/sf-pro-display_bold.woff.ttf");
+}
+
+@font-face {
+    font-family: sf-pro-display_regular;
+    font-style: normal;
+    font-weight: normal;
+    src: url("./assets/fronts/sf-pro-display_regular.woff.ttf");
+}
